@@ -29,7 +29,7 @@ class Home extends StatelessWidget {
               onPressed: () {
                 GoRouter.of(context)
                     .pushNamed(MyAppRouteConstants.profileRouteName, pathParameters: {
-                  'username': 'Akshit Madan',
+                  'username': 'Moheed Aziz',
                   'userid': 'uhfhfhfdghfk'
                 });
               },
